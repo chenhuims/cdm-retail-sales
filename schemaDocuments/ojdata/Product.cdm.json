@@ -1,0 +1,23 @@
+{
+	"$schema": "../schema.cdm.json",
+	"jsonSchemaSemanticVersion": "1.0.0",
+	"imports": [
+		{
+			"corpusPath": "/foundations.cdm.json"
+		}
+	],
+	"definitions": [
+		{
+			"entityName": "UserAgent",
+			"extendsEntity": "CdmEntity",
+			"description": "The orange juice product.",
+			"hasAttributes": [
+				{
+					"name": "store",
+					"dataType": "int",
+					"description": "Store ID.",
+				}
+			]
+		}
+	]
+}
