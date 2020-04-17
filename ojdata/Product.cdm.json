@@ -1,0 +1,46 @@
+{
+	"$schema": "../schema.cdm.json",
+	"jsonSchemaSemanticVersion": "1.0.0",
+	"imports": [
+		{
+			"corpusPath": "/foundations.cdm.json"
+		}
+	],
+	"definitions": [
+		{
+			"entityName": "Product",
+			"extendsEntity": "CdmEntity",
+			"description": "The orange juice product.",
+			"hasAttributes": [
+				{
+					"name": "store",
+					"dataType": "integer",
+					"description": "Store ID."
+				},
+				{
+					"name": "brand",
+					"dataType": "integer",
+					"description": "Brand ID."
+				},
+				{
+					"name": "week",
+					"dataType": "integer",
+					"description": "Week Index."
+				},
+				{
+					"name": "logmove",
+					"dataType": "double",
+					"description": "Logarithm of the number of product sold."
+				},
+				{
+					"name": "move",
+					"dataType": "integer",
+					"appliedTraits": [
+						"means.measurement.count"
+					],
+					"description": "Number of product sold."
+				}
+			]
+		}
+	]
+}
