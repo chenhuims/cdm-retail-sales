@@ -3,7 +3,7 @@
 [Data Schema Visualization](./CDM/docs/SchemaViz.html)
 
 Visualization of the Orange Juice data schema:
-<img src="https://user-images.githubusercontent.com/20047467/79610377-6edbcd00-80c6-11ea-84c8-850c7b51819d.png" width=800 height=600>
+<img src="https://user-images.githubusercontent.com/20047467/79610926-75b70f80-80c7-11ea-9a87-ce84df0c2df7.png">
 
 ## Reference 
 \[1\] Common Data Model: https://docs.microsoft.com/en-us/common-data-model/ <br/>
