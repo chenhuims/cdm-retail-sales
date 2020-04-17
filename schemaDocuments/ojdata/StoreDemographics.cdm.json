@@ -1,0 +1,38 @@
+{
+	"$schema": "../schema.cdm.json",
+	"jsonSchemaSemanticVersion": "1.0.0",
+	"imports": [
+		{
+			"corpusPath": "/foundations.cdm.json"
+		}
+	],
+	"definitions": [
+		{
+			"entityName": "StoreDemographics",
+			"extendsEntity": "CdmEntity",
+			"description": "Demographics of the stores.",
+			"hasAttributes": [
+				{
+					"name": "store",
+					"dataType": "integer",
+					"description": "Store ID."
+				},
+				{
+					"name": "AGE60",
+					"dataType": "double",
+					"description": "Average age of the customers."
+				},
+				{
+					"name": "EDUC",
+					"dataType": "double",
+					"description": "Average education level of the customers."
+				},
+				{
+					"name": "INCOME",
+					"dataType": "double",
+					"description": "Average income of the customers."
+				}
+			]
+		}
+	]
+}

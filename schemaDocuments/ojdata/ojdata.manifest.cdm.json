@@ -1,0 +1,25 @@
+{
+    "$schema": "CdmManifest.cdm.json",
+    "jsonSchemaSemanticVersion": "1.0.0",
+    "imports": [],
+    "manifestName": "ojsales",
+    "explanation": "CDM standard entities",
+    "entities": [
+        {
+            "type": "LocalEntity",
+            "entityName": "Product",
+            "entityPath": "Session.cdm.json/Product"
+        },
+        {
+            "type": "LocalEntity",
+            "entityName": "StoreDemographics",
+            "entityPath": "UserAgent.cdm.json/StoreDemographics"
+        }
+    ],
+    "subManifests": [
+        {
+            "manifestName": "aggregations",
+            "definition": "aggregations/aggregations.manifest.cdm.json"
+        }
+    ]
+}

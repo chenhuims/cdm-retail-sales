@@ -1,0 +1,14 @@
+{
+    "$schema": "CdmManifest.cdm.json",
+    "jsonSchemaSemanticVersion": "1.0.0",
+    "imports": [],
+    "manifestName": "aggregations",
+    "explanation": "CDM standard entities",
+    "entities": [
+        {
+            "type": "LocalEntity",
+            "entityName": "AggPurchaseSingleProduct",
+            "entityPath": "AggPurchaseSingleProduct.cdm.json/AggPurchaseSingleProduct"
+        }
+    ]
+}

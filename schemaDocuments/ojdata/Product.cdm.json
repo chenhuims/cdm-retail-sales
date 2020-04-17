@@ -14,8 +14,31 @@
 			"hasAttributes": [
 				{
 					"name": "store",
-					"dataType": "int",
-					"description": "Store ID.",
+					"dataType": "integer",
+					"description": "Store ID."
+				},
+				{
+					"name": "brand",
+					"dataType": "integer",
+					"description": "Brand ID."
+				},
+				{
+					"name": "week",
+					"dataType": "integer",
+					"description": "Week Index."
+				},
+				{
+					"name": "logmove",
+					"dataType": "double",
+					"description": "Logarithm of the number of product sold."
+				},
+				{
+					"name": "move",
+					"dataType": "integer",
+					"appliedTraits": [
+						"means.measurement.count"
+					],
+					"description": "Number of product sold."
 				}
 			]
 		}

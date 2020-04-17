@@ -1,0 +1,31 @@
+{
+    "$schema": "../../schema.cdm.json",
+    "jsonSchemaSemanticVersion": "1.0.0",
+    "imports": [
+        {
+            "corpusPath": "/ojdata/_allImports.cdm.json"
+        }
+    ],
+    "definitions": [
+        {
+            "entityName": "AggSalesSingleProduct",
+            "extendsEntity": "CdmEntity",
+            "description": "Aggregate sales of single product.",
+            "hasAttributes": [
+                {
+                    "name": "brand",
+                    "dataType": "integer",
+                    "description": "Brand ID."
+                },
+                {
+                    "name": "week",
+                    "dataType": "integer",
+                    "description": "Week Index."
+                },
+                {
+                    "attributeGroupReference": "orderCount"
+                }
+            ]
+        }
+    ]
+}
