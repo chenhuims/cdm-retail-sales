@@ -8,12 +8,12 @@
         {
             "type": "LocalEntity",
             "entityName": "Product",
-            "entityPath": "Session.cdm.json/Product"
+            "entityPath": "Product.cdm.json/Product"
         },
         {
             "type": "LocalEntity",
             "entityName": "StoreDemographics",
-            "entityPath": "UserAgent.cdm.json/StoreDemographics"
+            "entityPath": "StoreDemographics.cdm.json/StoreDemographics"
         }
     ],
     "subManifests": [
