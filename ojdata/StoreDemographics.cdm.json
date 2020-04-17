@@ -28,10 +28,50 @@
 					"description": "Average education level of the customers."
 				},
 				{
+					"name": "ETHNIC",
+					"dataType": "double",
+					"description": "Ethnic feature the customers."
+				},
+				{
 					"name": "INCOME",
 					"dataType": "double",
 					"description": "Average income of the customers."
-				}
+				},
+				{
+					"name": "HHLARGE",
+					"dataType": "double",
+					"description": "HHLARGE."
+				},
+				{
+					"name": "WORKWOM",
+					"dataType": "double",
+					"description": "WORKWOM."
+				},
+				{
+					"name": "HVAL150",
+					"dataType": "double",
+					"description": "HVAL150."
+				},
+				{
+					"name": "SSTRDIST",
+					"dataType": "double",
+					"description": "SSTRDIST."
+				},
+				{
+					"name": "SSTRVOL",
+					"dataType": "double",
+					"description": "SSTRVOL."
+				},
+				{
+					"name": "CPDIST5",
+					"dataType": "double",
+					"description": "CPDIST5."
+				},
+				{
+					"name": "CPWVOL5",
+					"dataType": "double",
+					"description": "CPWVOL5."
+				}				
 			]
 		}
 	]
