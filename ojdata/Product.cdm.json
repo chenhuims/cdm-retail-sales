@@ -28,6 +28,14 @@
 					"description": "Week Index."
 				},
 				{
+					"name": "week_start",
+					"dataType": "date",
+					"description": "Start date of the week.",
+                    "appliedTraits": [
+                        "means.measurement.date"
+                    ]
+				},
+				{
 					"name": "logmove",
 					"dataType": "double",
 					"description": "Logarithm of the number of product sold."
@@ -39,6 +47,76 @@
 						"means.measurement.count"
 					],
 					"description": "Number of product sold."
+				},
+				{
+					"name": "price1",
+					"dataType": "double",
+					"description": "Price of brand 1."
+				},		
+				{
+					"name": "price2",
+					"dataType": "double",
+					"description": "Price of brand 2."
+				},
+				{
+					"name": "price3",
+					"dataType": "double",
+					"description": "Price of brand 3."
+				},					
+				{
+					"name": "price4",
+					"dataType": "double",
+					"description": "Price of brand 4."
+				},	
+				{
+					"name": "price5",
+					"dataType": "double",
+					"description": "Price of brand 5."
+				},	
+				{
+					"name": "price6",
+					"dataType": "double",
+					"description": "Price of brand 6."
+				},	
+				{
+					"name": "price7",
+					"dataType": "double",
+					"description": "Price of brand 7."
+				},	
+				{
+					"name": "price8",
+					"dataType": "double",
+					"description": "Price of brand 8."
+				},	
+				{
+					"name": "price9",
+					"dataType": "double",
+					"description": "Price of brand 9."
+				},	
+				{
+					"name": "price10",
+					"dataType": "double",
+					"description": "Price of brand 10."
+				},	
+				{
+					"name": "price11",
+					"dataType": "double",
+					"description": "Price of brand 11."
+				},	
+				{
+					"name": "deal",
+					"dataType": "binary",
+					"description": "Deal information."
+				},	
+				{
+					"name": "feat",
+					"dataType": "double",
+					"description": "Featured advertisement."
+				},	
+				{
+					"name": "profit",
+					"dataType": "double",
+					"description": "Profit."
 				}
 			]
 		}
